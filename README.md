@@ -10,5 +10,5 @@ For creating new images you need to define a target and its dockerfile in `docke
 as we did for `ubuntu-22.04` and then tag:
 
 ```bash
-git tag ubuntu_22.04
+git tag ubuntu-22_04
 ```
