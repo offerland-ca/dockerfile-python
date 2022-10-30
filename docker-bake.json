@@ -3,7 +3,7 @@
     "ubuntu-22_04": {
       "dockerfile": "Dockerfile.ubuntu-22.04",
       "tags": [
-        "ghcr.io/offerland-canada/dockerfile-python:ubuntu-22.04"
+        "ghcr.io/offerland-ca/dockerfile-python:ubuntu-22.04"
       ]
     }
   }
