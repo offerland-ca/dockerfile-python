@@ -1,4 +1,4 @@
-# Dcokerfile with python, python-dev and gdal
+# A Docker Image with `python`, `python-dev` and `gdal`
 
 ## Introduction
 
