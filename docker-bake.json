@@ -5,6 +5,12 @@
       "tags": [
         "ghcr.io/offerland-ca/dockerfile-python:ubuntu-22.04"
       ]
+    },
+    "ubuntu-23_04": {
+      "dockerfile": "Dockerfile.ubuntu-23.04",
+      "tags": [
+        "ghcr.io/offerland-ca/dockerfile-python:ubuntu-23.04"
+      ]
     }
   }
 }
