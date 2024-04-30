@@ -1,5 +1,14 @@
 {
   "target": {
+    "ubuntu-20_04": {
+      "dockerfile": "Dockerfile.ubuntu-20.04",
+      "tags": [
+        "ghcr.io/offerland-ca/dockerfile-python:ubuntu-20.04"
+      ],
+      "platforms": [
+        "linux/amd64"
+      ]
+    },
     "ubuntu-22_04": {
       "dockerfile": "Dockerfile.ubuntu-22.04",
       "tags": [
