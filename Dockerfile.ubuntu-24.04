@@ -6,4 +6,4 @@ RUN apt-get -y update --allow-releaseinfo-change && \
   python3-pip build-essential python-is-python3 gdal-bin libgdal-dev pipenv pipx git && \
   rm -Rf /var/lib/apt/lists/*
 
-RUN python --version && python -m pipx ensurepath && pipx install uv
+RUN python --version && python -m pipx ensurepath && pipx install uv pip-tools
