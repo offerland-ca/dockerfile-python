@@ -6,7 +6,9 @@
         "ghcr.io/offerland-ca/dockerfile-python:ubuntu-20.04"
       ],
       "platforms": [
-        "linux/amd64"
+        "linux/amd64",
+        "linux/arm64",
+        "darwin/arm64"
       ]
     },
     "ubuntu-22_04": {
