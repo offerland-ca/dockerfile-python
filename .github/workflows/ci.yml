@@ -16,5 +16,5 @@ jobs:
       - uses: docker/bake-action@v5
         with:
           targets: main
-          push: github.ref == 'refs/heads/main'
+          push: ${{ github.ref == 'refs/heads/main' }}
           files: 'docker-bake.json'
