@@ -15,8 +15,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/bake-action@v5
-        if: ${{ startsWith(github.ref, 'refs/tags/') }}
         with:
-          targets: ${{ github.ref_name }}
+          targets: main
           push: true
           files: 'docker-bake.json'

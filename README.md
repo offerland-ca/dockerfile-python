@@ -7,9 +7,5 @@ we have installed the necessary packages on top of the default Ubuntu images.
 
 ## How To
 
-For creating new images you need to define a target and its dockerfile in `docker-bake.json`
-as we did for `ubuntu-22.04` and then create a tag to trigger the workflow:
-
-```bash
-git tag ubuntu-22_04
-```
+For creating new images you need to define a target and its Dockerfile in `docker-bake.json`
+as we did for `ubuntu-22.04` and then the target into the main target, so it runs by pushing on the main branch.
