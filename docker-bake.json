@@ -1,5 +1,5 @@
 {
-  "target": {
+  "group": {
     "main": {
       "targets": [
         "ubuntu-20_04",
@@ -7,7 +7,9 @@
         "ubuntu-23_04",
         "ubuntu-24_04"
       ]
-    },
+    }
+  },
+  "target": {
     "ubuntu-20_04": {
       "dockerfile": "Dockerfile.ubuntu-20.04",
       "tags": [
