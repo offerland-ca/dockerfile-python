@@ -5,7 +5,8 @@
         "ubuntu-20_04",
         "ubuntu-22_04",
         "ubuntu-23_04",
-        "ubuntu-24_04"
+        "ubuntu-24_04",
+        "3_11-gdal"
       ]
     }
   },
@@ -47,6 +48,17 @@
       "dockerfile": "Dockerfile.ubuntu-24.04",
       "tags": [
         "ghcr.io/offerland-ca/dockerfile-python:ubuntu-24.04"
+      ],
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64",
+        "darwin/arm64"
+      ]
+    },
+    "3_11-gdal": {
+      "dockerfile": "Dockerfile.3.11-gdal",
+      "tags": [
+        "ghcr.io/offerland-ca/dockerfile-python:3.11-gdal"
       ],
       "platforms": [
         "linux/amd64",
