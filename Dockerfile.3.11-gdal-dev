@@ -2,4 +2,7 @@
 
 FROM --platform=$BUILDPLATFORM ghcr.io/offerland-ca/dockerfile-python:3.11-gdal
 
+ENV RYE_HOME="/opt/rye"
+ENV PATH="$RYE_HOME/shims:$PATH"
+
 RUN curl -sSf https://rye.astral.sh/get | RYE_INSTALL_OPTION="--yes" bash
