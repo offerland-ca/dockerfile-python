@@ -2,6 +2,10 @@
 
 FROM --platform=$BUILDPLATFORM ghcr.io/offerland-ca/dockerfile-python:3.11-gdal
 
+RUN apt-get -y update && \
+  apt-get -y install --no-install-recommends build-essential curl && \
+  rm -Rf /var/lib/apt/lists/*
+
 ENV RYE_HOME="/opt/rye"
 ENV PATH="$RYE_HOME/shims:$PATH"
 
