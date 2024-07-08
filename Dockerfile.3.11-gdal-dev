@@ -9,4 +9,4 @@ RUN apt-get -y update && \
 ENV RYE_HOME="/opt/rye"
 ENV PATH="$RYE_HOME/shims:$PATH"
 
-RUN curl -sSf https://rye.astral.sh/get | RYE_HOME="/opt/rye" RYE_INSTALL_OPTION="--yes" bash
+RUN curl -sSf https://rye.astral.sh/get | RYE_HOME="/opt/rye" RYE_TOOLCHAIN="/usr/local/bin/python" RYE_INSTALL_OPTION="--yes" bash
