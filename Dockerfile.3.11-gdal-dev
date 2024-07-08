@@ -1,0 +1,5 @@
+# syntax=docker/dockerfile:1
+
+FROM --platform=$BUILDPLATFORM ghcr.io/offerland-ca/dockerfile-python:3.11-gdal
+
+RUN curl -sSf https://rye.astral.sh/get | RYE_INSTALL_OPTION="--yes" bash
