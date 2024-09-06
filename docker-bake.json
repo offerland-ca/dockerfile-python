@@ -77,6 +77,28 @@
         "linux/arm64",
         "darwin/arm64"
       ]
+    },
+    "3_12-gdal": {
+      "dockerfile": "Dockerfile.3.12-gdal",
+      "tags": [
+        "ghcr.io/offerland-ca/dockerfile-python:3.12-gdal"
+      ],
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64",
+        "darwin/arm64"
+      ]
+    },
+    "3_12-gdal-dev": {
+      "dockerfile": "Dockerfile.3.12-gdal-dev",
+      "tags": [
+        "ghcr.io/offerland-ca/dockerfile-python:3.12-gdal-dev"
+      ],
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64",
+        "darwin/arm64"
+      ]
     }
   }
 }

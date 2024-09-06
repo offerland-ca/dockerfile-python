@@ -1,0 +1,9 @@
+# syntax=docker/dockerfile:1
+
+FROM --platform=$BUILDPLATFORM python:3.12-slim
+
+RUN apt-get -y update && \
+  apt-get -y install --no-install-recommends build-essential libgdal-dev git && \
+  rm -Rf /var/lib/apt/lists/*
+
+RUN python --version && pip install --no-cache-dir pipenv uv pip-tools

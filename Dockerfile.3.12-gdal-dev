@@ -1,0 +1,12 @@
+# syntax=docker/dockerfile:1
+
+FROM --platform=$BUILDPLATFORM ghcr.io/offerland-ca/dockerfile-python:3.12-gdal
+
+RUN apt-get -y update && \
+  apt-get -y install --no-install-recommends build-essential curl && \
+  rm -Rf /var/lib/apt/lists/*
+
+ENV RYE_HOME="/opt/rye"
+ENV PATH="$RYE_HOME/shims:$PATH"
+
+RUN curl -sSf https://rye.astral.sh/get | RYE_HOME="/opt/rye" RYE_TOOLCHAIN="/usr/local/bin/python" RYE_INSTALL_OPTION="--yes" bash
