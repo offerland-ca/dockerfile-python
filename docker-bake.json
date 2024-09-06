@@ -8,9 +8,7 @@
         "ubuntu-24_04",
         "3_11-gdal",
         "3_11-gdal-dev",
-        "3_12-gdal",
-        "3_12-gdal-dev"
-      ]
+        "3_12-gdal"      ]
     }
   },
   "target": {
