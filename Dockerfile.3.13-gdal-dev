@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM --platform=$BUILDPLATFORM ghcr.io/offerland-ca/dockerfile-python:3.12-gdal
+FROM --platform=$BUILDPLATFORM python:3.13-slim
 
 RUN apt-get -y update && \
   apt-get -y install --no-install-recommends curl && \
