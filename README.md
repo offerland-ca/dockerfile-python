@@ -15,7 +15,8 @@ Our current need is having `gdal` library to be used by python and because of th
 which doesn't have any dependency to `python-dev`.
 
 - Dockerfile.3.11-gdal
-- Dockerfile.3.11-gdal-dev
+- Dockerfile.3.12-gdal
+- Dockerfile.3.13-gdal
 
 ## How To
 
