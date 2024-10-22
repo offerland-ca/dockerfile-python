@@ -7,11 +7,8 @@
         "ubuntu-23_04",
         "ubuntu-24_04",
         "3_11-gdal",
-        "3_11-gdal-dev",
         "3_12-gdal",
-        "3_12-gdal-dev",
-        "3_13-gdal",
-        "3_13-gdal-dev"
+        "3_13-gdal"
       ]
     }
   },
@@ -71,17 +68,6 @@
         "darwin/arm64"
       ]
     },
-    "3_11-gdal-dev": {
-      "dockerfile": "Dockerfile.3.11-gdal-dev",
-      "tags": [
-        "ghcr.io/offerland-ca/dockerfile-python:3.11-gdal-dev"
-      ],
-      "platforms": [
-        "linux/amd64",
-        "linux/arm64",
-        "darwin/arm64"
-      ]
-    },
     "3_12-gdal": {
       "dockerfile": "Dockerfile.3.12-gdal",
       "tags": [
@@ -93,32 +79,10 @@
         "darwin/arm64"
       ]
     },
-    "3_12-gdal-dev": {
-      "dockerfile": "Dockerfile.3.12-gdal-dev",
-      "tags": [
-        "ghcr.io/offerland-ca/dockerfile-python:3.12-gdal-dev"
-      ],
-      "platforms": [
-        "linux/amd64",
-        "linux/arm64",
-        "darwin/arm64"
-      ]
-    },
     "3_13-gdal": {
       "dockerfile": "Dockerfile.3.13-gdal",
       "tags": [
         "ghcr.io/offerland-ca/dockerfile-python:3.13-gdal"
-      ],
-      "platforms": [
-        "linux/amd64",
-        "linux/arm64",
-        "darwin/arm64"
-      ]
-    },
-    "3_13-gdal-dev": {
-      "dockerfile": "Dockerfile.3.13-gdal-dev",
-      "tags": [
-        "ghcr.io/offerland-ca/dockerfile-python:3.13-gdal-dev"
       ],
       "platforms": [
         "linux/amd64",
