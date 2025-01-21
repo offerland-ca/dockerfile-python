@@ -35,17 +35,6 @@
         "darwin/arm64"
       ]
     },
-    "ubuntu-23_04": {
-      "dockerfile": "Dockerfile.ubuntu-23.04",
-      "tags": [
-        "ghcr.io/offerland-ca/dockerfile-python:ubuntu-23.04"
-      ],
-      "platforms": [
-        "linux/amd64",
-        "linux/arm64",
-        "darwin/arm64"
-      ]
-    },
     "ubuntu-24_04": {
       "dockerfile": "Dockerfile.ubuntu-24.04",
       "tags": [
