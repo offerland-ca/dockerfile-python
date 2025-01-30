@@ -8,7 +8,6 @@ we have installed the necessary packages on top of the default Ubuntu images:
 
 - Dockerfile.ubuntu-20.04
 - Dockerfile.ubuntu-22.04
-- Dockerfile.ubuntu-23.04
 - Dockerfile.ubuntu-24.04
 
 Our current need is having `gdal` library to be used by python and because of that you can install `libgdal-dev`
